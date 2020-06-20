@@ -1,3 +1,28 @@
-@import url(~antd/dist/antd.css);
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #fafafa;
+  font-family: 'Nunito Sans', sans-serif; }
+
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23); }
+  .navbar .brand-title {
+    font-size: 17px;
+    margin-left: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: black;
+    font-weight: bold; }
+  .navbar .theme-switcher {
+    font-family: "Nunito Sans", serif;
+    font-weight: bold;
+    margin-right: 50px; }
 
 /*# sourceMappingURL=style.css.map */
