@@ -2,6 +2,7 @@
 @import "colors";
 
 
+
 *{
   margin: 0;
   padding: 0;
@@ -16,7 +17,7 @@ body{
   height: 70px;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 3px 3px rgba(0,0,0,0.16), 0 3px 3px rgba(0,0,0,0.23);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.16), 0 1px 1px rgba(0,0,0,0.23);
 
   .brand-title{
 
@@ -24,12 +25,22 @@ body{
       margin-left: 50px;
       font-family: 'Nunito Sans', sans-serif;
       color: black;
-      font-weight: bold;
+      font-weight: 800;
   }
   .theme-switcher{
       font-family: "Nunito Sans", serif;
       font-weight: bold;
       margin-right: 50px;
+
+
+    a{
+      text-decoration: none;
+      font-weight: 300;
+      color: black;
+        span{
+          padding: 20px;
+        }
+    }
   }
 }
 

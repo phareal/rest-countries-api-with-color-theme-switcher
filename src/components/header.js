@@ -8,7 +8,11 @@ function Header() {
                 Where in the world?
             </div>
             <div className="theme-switcher">
-               <p>dasdasd</p>
+                <a href="">
+                     <span className="lnr lnr-moon"></span>
+                    Dark Mode
+                </a>
+
             </div>
         </div>
     )
